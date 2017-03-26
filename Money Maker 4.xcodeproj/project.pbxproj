@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91A52EB1E85B34D001BBF4C /* tvmFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A52EA1E85B34D001BBF4C /* tvmFunctions.swift */; };
 		C93CD7791E50E90B00A4E457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CD7781E50E90B00A4E457 /* AppDelegate.swift */; };
 		C93CD77B1E50E90B00A4E457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CD77A1E50E90B00A4E457 /* ViewController.swift */; };
 		C93CD7801E50E90B00A4E457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93CD77F1E50E90B00A4E457 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91A52EA1E85B34D001BBF4C /* tvmFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tvmFunctions.swift; sourceTree = "<group>"; };
 		C93CD7751E50E90B00A4E457 /* Money Maker 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Maker 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93CD7781E50E90B00A4E457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C93CD77A1E50E90B00A4E457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				C93CD7781E50E90B00A4E457 /* AppDelegate.swift */,
 				C93CD77A1E50E90B00A4E457 /* ViewController.swift */,
+				C91A52EA1E85B34D001BBF4C /* tvmFunctions.swift */,
 				C93CD7A81E50F39E00A4E457 /* MyDataController.swift */,
 				C93CD77F1E50E90B00A4E457 /* Assets.xcassets */,
 				C93CD7811E50E90B00A4E457 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93CD77B1E50E90B00A4E457 /* ViewController.swift in Sources */,
+				C91A52EB1E85B34D001BBF4C /* tvmFunctions.swift in Sources */,
 				C93CD7791E50E90B00A4E457 /* AppDelegate.swift in Sources */,
 				C93CD7A91E50F39E00A4E457 /* MyDataController.swift in Sources */,
 			);
@@ -497,6 +501,7 @@
 				C93CD79F1E50E90B00A4E457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C93CD7A01E50E90B00A4E457 /* Build configuration list for PBXNativeTarget "Money Maker 4Tests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				C93CD7A21E50E90B00A4E457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C93CD7A31E50E90B00A4E457 /* Build configuration list for PBXNativeTarget "Money Maker 4UITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				C93CD7A51E50E90B00A4E457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
